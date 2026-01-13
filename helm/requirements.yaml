@@ -1,0 +1,4 @@
+dependencies:
+- name: atlantis
+  version: 4.15.0
+  repository: https://runatlantis.github.io/helm-charts

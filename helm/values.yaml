@@ -1,0 +1,4 @@
+atlantis:
+  github:
+    user: MoralesV93
+  vcsSecretName: atlantis-vcs
