@@ -2,13 +2,14 @@ atlantis:
   githubApp:
     id: "2654766"
     slug: bymv-atlantis
+  orgAllowlist: "github.com/MoralesV93/bymv-frontend-pbrand"
   vcsSecretName: atlantis-vcs
   environment:
-    ATLANTIS_DEFAULT_TF_VERSION: v1.3.0
+    ATLANTIS_DEFAULT_TF_VERSION: 1.3.0
   repoConfig: |
     ---
     repos:
-    - id: /github\.com/MoralesV93/.*/
+    - id: github.com/MoralesV93/bymv-frontend-pbrand
       apply_requirements: [approved, mergeable, undiverged]
       allowed_overrides: [apply_requirements,workflow]
       allow_custom_workflows: true
