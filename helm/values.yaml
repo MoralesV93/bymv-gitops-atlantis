@@ -3,6 +3,8 @@ atlantis:
     id: "2654766"
     slug: bymv-atlantis
   vcsSecretName: atlantis-vcs
+  environment:
+    ATLANTIS_DEFAULT_TF_VERSION: v1.3.0
   repoConfig: |
     ---
     repos:
