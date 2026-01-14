@@ -1,4 +1,12 @@
 atlantis:
-  github:
-    user: MoralesV93
+  githubApp:
+    id: "2654766"
+    slug: bymv-atlantis
   vcsSecretName: atlantis-vcs
+  repoConfig: |
+    ---
+    repos:
+    - id: /github\.com/MoralesV93/.*/
+      apply_requirements: [approved, mergeable, undiverged]
+      allowed_overrides: [apply_requirements,workflow]
+      allow_custom_workflows: true
