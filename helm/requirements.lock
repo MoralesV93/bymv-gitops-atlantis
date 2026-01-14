@@ -1,6 +1,6 @@
 dependencies:
 - name: atlantis
   repository: https://runatlantis.github.io/helm-charts
-  version: 4.15.0
-digest: sha256:31875552e0389e37068d75226274ff97d55d5e05a6368386dd04895c73047705
-generated: "2026-01-13T19:47:42.100078+01:00"
+  version: 5.25.0
+digest: sha256:12e89479e85a66acce8ea0468c1199c025ee860398e26e42ee65dceee7398f8f
+generated: "2026-01-14T12:32:33.781038+01:00"
